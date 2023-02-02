@@ -214,6 +214,19 @@ header a{
     height:150px;
     border-radius:150px;
 }
+.circular--portrait {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+}
+
 
 a{
 	border-radius: 5px;
